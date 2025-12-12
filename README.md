@@ -1,11 +1,11 @@
 
-# 🔐 AI-Powered Log Anomaly Detection
+#  AI-Powered Log Anomaly Detection
 
 A practical cybersecurity project that simulates a small organizational environment with **central log collection**, **AI-based anomaly detection**, and an interactive dashboard built in Python (Dash + Plotly).
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project demonstrates end-to-end security monitoring inside a simulated organization.
 Security logs from Windows machines are collected in real time, processed using **Artificial Intelligence**, and visualized through an interactive dashboard.
@@ -20,11 +20,11 @@ Logs flow from Windows → NXLog → Ubuntu → Python ML Pipeline → Dashboard
 
 ---
 
-## 🧠 AI System
+##  AI System
 
 The core of the project is the **AI anomaly detection engine** built using Isolation Forest.
 
-### 🔍 AI Workflow
+###  AI Workflow
 
 ```
 Raw Windows Logs
@@ -40,7 +40,7 @@ AI Tags + Severity Levels
 Dashboard Alerts
 ```
 
-### 🤖 Model Output
+###  Model Output
 
 | Field           | Meaning                            |
 | --------------- | ---------------------------------- |
@@ -48,7 +48,7 @@ Dashboard Alerts
 | `severity`      | High / Medium / Low                |
 | `ai_tag`        | Category assigned based on EventID |
 
-### 🏷 Event Categories
+###  Event Categories
 
 * Failed Authentication
 * Process Creation
@@ -61,7 +61,7 @@ AI + rule-based mapping = hybrid detection engine.
 
 ---
 
-## 🏗 Architecture
+##  Architecture
 
 ```
 Windows 11 PC1 -----\
@@ -75,7 +75,7 @@ Windows Server 2022 ➜ AD + DNS + Security Logs
 
 ---
 
-## 🚀 Features
+##  Features
 
 * Real-time log ingestion (UDP → JSON)
 * AI anomaly detection (Isolation Forest)
@@ -89,7 +89,7 @@ Windows Server 2022 ➜ AD + DNS + Security Logs
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### 1. Clone the repository
 
@@ -106,7 +106,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📥 Run the Log Collector
+##  Run the Log Collector
 
 ```bash
 python3 log_collector.py
@@ -136,7 +136,7 @@ http://0.0.0.0:8050
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 /AI-Powered-Log-Anomaly-Detection
@@ -151,7 +151,7 @@ http://0.0.0.0:8050
 
 ---
 
-## 🔮 Roadmap
+##  Roadmap
 
 * Add Sysmon logs
 * Add Elasticsearch + Kibana integration
@@ -163,7 +163,7 @@ http://0.0.0.0:8050
 
 ---
 
-## 👤 Author
+##  Author
 
 **Arjanit Pronaj**
 Cybersecurity — AAB College
