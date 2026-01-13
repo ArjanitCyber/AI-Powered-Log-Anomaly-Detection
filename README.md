@@ -122,7 +122,7 @@ Ensure NXLog sends logs to Ubuntu on port **5050**.
 
 ---
 
-## 📊 Run the Dashboard
+##  Run the Dashboard
 
 ```bash
 python3 dashboard.py
@@ -148,19 +148,6 @@ http://0.0.0.0:8050
  ├── requirements.txt
  └── README.md
 ```
-
----
-
-##  Roadmap
-
-* Add Sysmon logs
-* Add Elasticsearch + Kibana integration
-* Add Slack/Email alerting
-* Add deep learning sequence models
-* Add automatic response capabilities (SOAR)
-* Create Windows agent installer
-
-
 ---
 
 ##  Author
