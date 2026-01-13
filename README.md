@@ -7,7 +7,7 @@ A practical cybersecurity project that simulates a small organizational environm
 
 ##  Overview
 
-This project demonstrates end-to-end security monitoring inside a simulated organization.
+This project demonstrates  security monitoring inside a simulated organization.
 Security logs from Windows machines are collected in real time, processed using **Artificial Intelligence**, and visualized through an interactive dashboard.
 
 Environment includes:
